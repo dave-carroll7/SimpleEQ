@@ -61,14 +61,28 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.4675" y="0.4916317991631799" useARA="0" uiLastX_Normal="465"
-          uiLastY_Normal="184" uiopen_Normal="0">
-    <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
-            version="1.0.0" file="/Users/davecarroll/Library/Audio/Plug-Ins/VST3/SimpleEQ.vst3"
-            uniqueId="fface124" isInstrument="0" fileTime="181b16f66c8" infoUpdateTime="181b174d003"
-            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
-            uid="acfb37b7"/>
-    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+  <FILTER uid="6" x="0.2225" y="0.2489539748953975" useARA="0" uiLastX_Normal="271"
+          uiLastY_Normal="122" uiopen_Normal="0">
+    <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
+            manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
+            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="181b18d953b"
+            numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="6163676e"/>
+    <STATE>553.hAGaoMGcv.C1AHv.DTfAGfPBJr.Gc3wGgvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxvzM3vCPDQFXYTZrUlSg0VYWIUYmk1atMmWIM2TkwVYiQWYjYTZrU1WPryKLklXxElb48RP0QVZu8RPvAGakABSu8Fby8RPvAGak8BLw.BRoAGHH8FbuDjYr8VXzAhPkEFctLVXlEpDTOAEUXwEXjgFdIUYmk1atQzakMGSu8FbZIUYmk1atQTXzE1WP.QRyMUYrU1XzUFYRU1Yo8laZIUYmk1at4TXsUFBOAAb...........rvLm.A.....YDEA.PfA..fQlH...X...rvLm.A.....YDEA.PfA..v3W+67+e..P................................................SGZ0g............3z..pgXLGlfVNU1cfHUYmk1atkfDgYFbrAA.RDVcm4Vzf.gUFkFakARLXUkazkFcrUFY.f..Y.fI.rB.IAPT.jE.dA.b.TG.5Avd.zG.DBPi.TI.jBf3.PN.sC.+AbP.ZDPIAXR.YFflATZ.lFvpAzZ.xFPsAvK.......f.A.........fH..................P.EC</STATE>
+    <LAYOUT>
+      <INPUTS/>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="7" x="0.30875" y="0.4769874476987448" useARA="0" uiLastX_Normal="334"
+          uiLastY_Normal="108" uiopen_Normal="0">
+    <PLUGIN name="SimpleEQ" format="AudioUnit" category="Effect" manufacturer="yourcompany"
+            version="1.0.0" file="AudioUnit:Effects/aufx,Rxoo,Manu" uniqueId="7e6c6762"
+            isInstrument="0" fileTime="0" infoUpdateTime="181b18d953b" numInputs="2"
+            numOutputs="2" isShell="0" hasARAExtension="0" uid="7e6c6762"/>
+    <STATE>261.hAGaoMGcv.y0AHv.DTfAGfPBJHwDTTAWsEla0YVXiQWcxUlbTQVXzEFWkwVYsUlaz0hag0VYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDMEla08DDDA..............GPA7cmQOUbpUTDuDf7C....LK1hB.....PyVp4aO55BidUgZKB....PXOFQV.....X1Fki4O.B..Ru.CM.QTwDkLQ6vCQASUI4Fb0QWzNDgUOUGcvUGcRHEdu8FD.HQX0YFdXUkazkFcrUFYHbAIoXiOFsDTUwYniVJppB6r59avFC.......DP..........XA...................vy</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>
@@ -78,23 +92,8 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="6" x="0.2225" y="0.2489539748953975" useARA="0" uiLastX_Normal="271"
-          uiLastY_Normal="122" uiopen_Normal="0">
-    <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
-            manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
-            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="181b174d003"
-            numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
-            uid="6163676e"/>
-    <STATE>137.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDgAGbrAjDgU2YtIQXlAGaP..BUnwIrDSNAozSPUkV........AD..........M....................vE</STATE>
-    <LAYOUT>
-      <INPUTS/>
-      <OUTPUTS>
-        <BUS index="0" layout="L R"/>
-      </OUTPUTS>
-    </LAYOUT>
-  </FILTER>
-  <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
-  <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
-  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="5" dstChannel="0"/>
-  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="5" dstChannel="1"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="7" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="7" dstChannel="1"/>
+  <CONNECTION srcFilter="7" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="7" srcChannel="1" dstFilter="3" dstChannel="1"/>
 </FILTERGRAPH>
